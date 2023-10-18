@@ -1,0 +1,15 @@
+---
+version: 1
+lineage:
+  - entity:
+      name: prueba_key
+      type: dataset
+      env: DEV
+      platform: glue
+    upstream:
+      - entity:
+          name: topology_key
+          type: dataset
+          env: DEV
+          platform: s3
+    
